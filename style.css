@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-item{
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.btn0{
+    height: 50px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: hsl(28, 89%, 48%);
+}
+
+.btn0:hover{
+    background-color:red;
+}
+
+.btn1{
+    height: 50px;
+    width: 130px;
+    background-color: transparent;
+    color:hsl(28, 89%, 48%) ;
+    outline: none;
+    border: 2px solid;
+}
+
+.btn1:hover{
+    background-color: hsl(28, 89%, 48%);
+    transition: all 0.4s;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* ----------------------------MAIN SECTION----------------------------------- */
+
+.main{
+    background: url(./images/education-skills-recruitment-word-search.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color:white;
+}
+
+.main input{
+    height: 70px;
+    width:70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+.btn2{
+    height: 70px;
+    width: 25%;
+    background-color: hsl(28, 89%, 48%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-left: -4px;
+}
+
+.btn2:hover{
+    background: orangered;
+}
+
+
+/* ------------------------------------CATEGORY SECTION-------------------------------------------- */
+
+
+.red{
+    color: red;
+}
+
+.cate h1{
+    font-size: 3.5rem;
+    color: darkslategrey;
+}
